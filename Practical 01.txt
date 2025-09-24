@@ -9,4 +9,3 @@ human_presence = input("Is human present in the room? (yes/no): ").strip().lower
 
 light_state = smart_light(outside_light, human_presence)
 print(f"Smart Light is: {light_state}")
-Smart Light is: ON
